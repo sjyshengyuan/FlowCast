@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+const {PhoneMedia}=await import('data:text/javascript;base64,'+Buffer.from(await readFile(new URL('../public/rtc.js',import.meta.url),'utf8')).toString('base64'));
+function setup(){const videos=[],errors=[],changes=[],audio=[];let ready=0;const media=new PhoneMedia({createVideo(){let resolve,reject;const promise=new Promise((yes,no)=>{resolve=yes;reject=no;});const video={readyState:2,play(){return promise;},pause(){reject(new DOMException('The play() request was interrupted by a new load request.','AbortError'));},resolve,reject};videos.push(video);return video;},onChange:value=>changes.push(value),onAudio:value=>audio.push(value),onReady:()=>ready++,onError:error=>errors.push(error)});return {media,videos,errors,changes,audio,get ready(){return ready;}};}
+function stream(){const value=new EventTarget();value.getVideoTracks=()=>[{readyState:'live',muted:false}];return value;}
+test('superseded play rejection does not overwrite the replacement source',async()=>{const s=setup(),a=stream(),b=stream();const first=s.media.set(a),second=s.media.set(b);s.videos[1].resolve();await Promise.all([first,second]);assert.equal(s.errors.length,0);assert.equal(s.media.entry.stream,b);assert.equal(s.ready,1);assert.equal(s.videos[0].srcObject,null);});
+test('same stream audio events keep one player and one play request',async()=>{const s=setup(),value=stream();const first=s.media.set(value);s.media.set(value);value.dispatchEvent(new Event('addtrack'));assert.equal(s.videos.length,1);s.videos[0].resolve();await first;assert.equal(s.ready,1);});
+test('disconnect during pending play clears source without an error',async()=>{const s=setup(),first=s.media.set(stream());await s.media.set(null);await first;assert.equal(s.errors.length,0);assert.equal(s.media.entry,null);assert.equal(s.changes.at(-1).stream,null);});
+test('current source playback failure remains visible',async()=>{const s=setup(),first=s.media.set(stream());s.videos[0].reject(new Error('decoder failed'));await first;assert.equal(s.errors[0].message,'decoder failed');});

@@ -1,0 +1,1 @@
+const {contextBridge,ipcRenderer}=require('electron');contextBridge.exposeInMainWorld('flowcast',{sources:()=>ipcRenderer.invoke('capture:sources'),selectSource:id=>ipcRenderer.invoke('capture:select',id),setRecording:value=>ipcRenderer.invoke('recording:state',value),openRecordings:()=>ipcRenderer.invoke('recording:folder')});

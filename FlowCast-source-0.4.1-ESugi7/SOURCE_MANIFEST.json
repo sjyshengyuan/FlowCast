@@ -1,0 +1,410 @@
+{
+  "version": "0.4.1",
+  "files": [
+    {
+      "path": ".dockerignore",
+      "bytes": 183,
+      "sha256": "62c882dff3d4ddc598985f42ee2f23bb8b9f7720411e4f955cd7098a5254e99b"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 326,
+      "sha256": "f4cc601c8dde3c2e63bec67777f7f574dea714359cf25af0e3bc85d53368b6b0"
+    },
+    {
+      "path": "android/app/build.gradle",
+      "bytes": 642,
+      "sha256": "e06939bcded391d0bc3dabeda1d8314ddd02526d0af29df80e97645a09acf2c1"
+    },
+    {
+      "path": "android/app/src/main/AndroidManifest.xml",
+      "bytes": 1779,
+      "sha256": "68bcf1fc43a4489d120d7f515b9f2462f45f7372ee83f91d0c31ca84edfdb54f"
+    },
+    {
+      "path": "android/app/src/main/java/dev/flowcast/companion/CaptureService.java",
+      "bytes": 26266,
+      "sha256": "1b27055a642aa28a1b94e60cbf575b0825759df42d5fe7a592d9d82491233eae"
+    },
+    {
+      "path": "android/app/src/main/java/dev/flowcast/companion/ConnectionProfile.java",
+      "bytes": 2725,
+      "sha256": "7d3e6b520a45ca611fbfc2a30af6c5ff86791116a30192484b8999e18d1480fe"
+    },
+    {
+      "path": "android/app/src/main/java/dev/flowcast/companion/MainActivity.java",
+      "bytes": 11430,
+      "sha256": "bfdfe48c21daa16e31f01d44b954344275cb7dad74c95fb387814bc2a7b246b2"
+    },
+    {
+      "path": "android/app/src/main/java/dev/flowcast/companion/MediaProfile.java",
+      "bytes": 1045,
+      "sha256": "b805224001af9b533b85a58b10210841f4b35bdda327c1885475901208869431"
+    },
+    {
+      "path": "android/app/src/main/java/dev/flowcast/companion/PinnedClient.java",
+      "bytes": 2021,
+      "sha256": "c2d5809b7485e4bd2068d1919e4f48a8eb09c80942347303675b3aed75455792"
+    },
+    {
+      "path": "android/app/src/main/java/dev/flowcast/companion/QrImageDecoder.java",
+      "bytes": 1576,
+      "sha256": "8f6f6bd045fe8d81adb2a76eda1e08b8f8d5f04b54088c57bbd39a9890261762"
+    },
+    {
+      "path": "android/app/src/main/java/dev/flowcast/companion/ScanActivity.java",
+      "bytes": 10964,
+      "sha256": "d32ca5da8900519c49d4c7c1445194a7f633914cc2ab6d4cbc52de3772d1e2bf"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/flowcast_mark.xml",
+      "bytes": 2364,
+      "sha256": "e7140e76302a05eb424aa4dfdebce8919c65bc7a80ab0d27bae16cc3e4a5764f"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/ic_notification.xml",
+      "bytes": 859,
+      "sha256": "bcc62f56f675fe1347a1acf0786961d5bdeb49d69adc7510b1d92f35100a99f2"
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "bytes": 259,
+      "sha256": "a7a54d98650d777e8090917c92a67a3a58a88a76ea9a3089bf8dc1ad032a8287"
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "bytes": 259,
+      "sha256": "a7a54d98650d777e8090917c92a67a3a58a88a76ea9a3089bf8dc1ad032a8287"
+    },
+    {
+      "path": "android/app/src/main/res/values/colors.xml",
+      "bytes": 68,
+      "sha256": "ada62083ce266db4622699acdf995c752569f98f2700b09a54248e4cd5392f25"
+    },
+    {
+      "path": "android/build.gradle",
+      "bytes": 70,
+      "sha256": "e1fc8c41a372899ee773b1b860cdabf34180b5be6883b124b2e4204e997883a0"
+    },
+    {
+      "path": "android/gradle.properties",
+      "bytes": 76,
+      "sha256": "fdcda40a82e36d5031ec21ee8685e7275cf30d5bb916927893a6687b70b5006c"
+    },
+    {
+      "path": "android/settings.gradle",
+      "bytes": 276,
+      "sha256": "4d31abbd42bc89dd724916be622765e87157a7ec375ae0a5226eac5783d6848d"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 548,
+      "sha256": "ca499fb7b8ce749749bb91bc859ec42f6e3618a6af0d9eb6e55b832555b23208"
+    },
+    {
+      "path": "desktop/lifecycle.cjs",
+      "bytes": 1675,
+      "sha256": "ea8c87f95f46d9ad6d630e019cecfcf06f81b8d98dd0137af42e7502267e3009"
+    },
+    {
+      "path": "desktop/main.cjs",
+      "bytes": 4109,
+      "sha256": "939e3591930e658416fbad89e6b88c1000b02f7cb982ce3b47014b8a57685f97"
+    },
+    {
+      "path": "desktop/preload.cjs",
+      "bytes": 329,
+      "sha256": "179a265268f666685a8655d889590cb9ffb4e9741f38085e34ee4cd6194bf7ec"
+    },
+    {
+      "path": "desktop/WINDOWS.md",
+      "bytes": 1519,
+      "sha256": "c7f8315145bb69cd253e7170cc78e152fcc22ffd08aa3471f84feac802b9b697"
+    },
+    {
+      "path": "DEVELOPMENT.md",
+      "bytes": 3089,
+      "sha256": "adf02891402303b970d3cba63af574b0f8aedccc9452ead64b08fdf0ffa6b55d"
+    },
+    {
+      "path": "lib/recordings.mjs",
+      "bytes": 5810,
+      "sha256": "6f25ca59a94489b3b690e4b8899b204af482ab5207bc27f48c9ab0f94e310ac9"
+    },
+    {
+      "path": "lib/remote-bridge.mjs",
+      "bytes": 3439,
+      "sha256": "0e866187c77515b117e66320680e6d9616da38e2b83b4a26d2315794c121fd1c"
+    },
+    {
+      "path": "lib/remote-protocol.mjs",
+      "bytes": 2754,
+      "sha256": "66ee435a51adff089970a45c4554640313e9014ecf7f909205b396bb4a896b10"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1080,
+      "sha256": "59e2b0d13021a9f3216b4559cede560fa35d56388e4e5a086b60bccebeb98603"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 147290,
+      "sha256": "14254e6de44203d12ee24b886467fb67b50df3544e35a2796072b62588bb2502"
+    },
+    {
+      "path": "package.json",
+      "bytes": 2357,
+      "sha256": "c28ecf58fdc1b0db4f78573d7b836248216af622c285ba885cca31eab3fab57e"
+    },
+    {
+      "path": "public/app.js",
+      "bytes": 30051,
+      "sha256": "79d1ed2fa17a7060642b5da64054d3f83685ae8f0beb5df418fc1911b9c42129"
+    },
+    {
+      "path": "public/assets/DESIGN.md",
+      "bytes": 688,
+      "sha256": "cb38a50cdf744d320cefa1427f249975e9f3933eecac67d910b29be60c35ca48"
+    },
+    {
+      "path": "public/assets/favicon.png",
+      "bytes": 989,
+      "sha256": "6578576fc09c32f26372f7a0f8841fb227859aa1c893fc182f21144ab6fcd846"
+    },
+    {
+      "path": "public/assets/flowcast-1024.png",
+      "bytes": 227091,
+      "sha256": "5c33e27ef58dd40eb9fab5345e54d290d2fddae164c1065af4c266f74f15847d"
+    },
+    {
+      "path": "public/assets/flowcast-128.png",
+      "bytes": 5877,
+      "sha256": "d50b24e14de9ae7b58c9b09feb50f186b32df8246c93eb102ed868da06f3d391"
+    },
+    {
+      "path": "public/assets/flowcast-16.png",
+      "bytes": 449,
+      "sha256": "f3bd7464705e3e456cfe8fb5920520346de2189d4f1c908c1a7b04fc0817dc1b"
+    },
+    {
+      "path": "public/assets/flowcast-180.png",
+      "bytes": 10302,
+      "sha256": "439d3e995425d4859a15be2b093d0efac5791b0a360a04c9d4e240ed2259cf24"
+    },
+    {
+      "path": "public/assets/flowcast-192.png",
+      "bytes": 11394,
+      "sha256": "1e2ae3831479daecd029644dfbb868cdc6b59d2842f461b01101dad7c292dc86"
+    },
+    {
+      "path": "public/assets/flowcast-24.png",
+      "bytes": 746,
+      "sha256": "48006e9b897a7b1402efff1b243edea6a2c0aa2a5618f8f1f46f39ea73468651"
+    },
+    {
+      "path": "public/assets/flowcast-256.png",
+      "bytes": 18772,
+      "sha256": "df763e4ed4604f2a9ad7c25433f0e92a0895e7de8d6e28729dbba15e773817cd"
+    },
+    {
+      "path": "public/assets/flowcast-32.png",
+      "bytes": 989,
+      "sha256": "6578576fc09c32f26372f7a0f8841fb227859aa1c893fc182f21144ab6fcd846"
+    },
+    {
+      "path": "public/assets/flowcast-48.png",
+      "bytes": 1639,
+      "sha256": "60c393b6bc8dc013b107f61cb40752d2bacba7dace0ea36ccd137fa4138b8c82"
+    },
+    {
+      "path": "public/assets/flowcast-512.png",
+      "bytes": 64902,
+      "sha256": "8174d476e0ae38bbe0479ea9b8db36cf6d3e41831788e4615e78783112c7d071"
+    },
+    {
+      "path": "public/assets/flowcast-64.png",
+      "bytes": 2369,
+      "sha256": "5d97f56645fc99c51b2e8feae9ac37b36f77281841b4c882a27f7754ead0d1e7"
+    },
+    {
+      "path": "public/assets/flowcast.ico",
+      "bytes": 30959,
+      "sha256": "74c63bbef1f9cfe4026f0e1b84186be0070b8ae3e74808c24a1112ff5e7d3fd1"
+    },
+    {
+      "path": "public/assets/flowcast.svg",
+      "bytes": 1688,
+      "sha256": "a7bdca8a266335b9abb07b70c486a1d8ea7a6e63ea97518ea5ec5b1a5a3206c4"
+    },
+    {
+      "path": "public/audio.css",
+      "bytes": 387,
+      "sha256": "9bb7b26c1f060fcd804ee18e16e1cd6038995ddc5cc4d189bd5da3f80859b044"
+    },
+    {
+      "path": "public/audio.js",
+      "bytes": 3150,
+      "sha256": "a48d66aa3215a7f4465b2dbd41ca1d293e56cc2695a42213fdda08efd1a1b632"
+    },
+    {
+      "path": "public/experience.js",
+      "bytes": 3079,
+      "sha256": "00e2c3eaa187a12936633957b3988328cd8612956679ab48b2fc791e11bfc173"
+    },
+    {
+      "path": "public/index.html",
+      "bytes": 10253,
+      "sha256": "0ca42e0c01176be0883fe1f0fe6f534436c08a78d940ce021c533e4c85df1e6a"
+    },
+    {
+      "path": "public/rtc.js",
+      "bytes": 12785,
+      "sha256": "772754949df819d0e5a351910763e6d8d1be3a045000348007b2efe4d2c7ca91"
+    },
+    {
+      "path": "public/style.css",
+      "bytes": 9032,
+      "sha256": "8ae73f68304d73a48889a18aac01f7b97b4cf4e3f62e5c304558587256061b38"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3587,
+      "sha256": "b20ffefc380723ad38dc3fb3225c403131cf4f87e17067b8f2b1074035bde37a"
+    },
+    {
+      "path": "remote/.env.example",
+      "bytes": 638,
+      "sha256": "414a91d4c65c2e273aea4c4db151181c253547ff98e00e4f30b282b46d419956"
+    },
+    {
+      "path": "remote/Caddyfile",
+      "bytes": 60,
+      "sha256": "d00f0fe6d3c89bf95b93997075bd7f36c954a3bde67326c5c939272f647180ff"
+    },
+    {
+      "path": "remote/compose.yaml",
+      "bytes": 2016,
+      "sha256": "0e85b04a619a345f55c5b2d1504fcd0560ceecd4ae9453bb97dba0587237222f"
+    },
+    {
+      "path": "remote/Dockerfile",
+      "bytes": 326,
+      "sha256": "e510c028bb1bfcd1ee645943c6cdc5daddbf944ca962e2c530a1e722cf29fb7d"
+    },
+    {
+      "path": "remote/hub.mjs",
+      "bytes": 8377,
+      "sha256": "dd4f38333857918b72275b8767323cb312833cafcc68f02a53060b5ec4561b0e"
+    },
+    {
+      "path": "remote/README.md",
+      "bytes": 3241,
+      "sha256": "6e0113a7de15fb7afdcf0bf1c4641d08aed5f42c155425dc92489a9e5c4d4dbc"
+    },
+    {
+      "path": "scripts/browser-smoke.mjs",
+      "bytes": 22985,
+      "sha256": "a106303caa842907bfc431457bec61792f9121e095601cb3bcaef76b780e269e"
+    },
+    {
+      "path": "scripts/build-icons.mjs",
+      "bytes": 3462,
+      "sha256": "a98617d5e35b76ee75e2c112cad326022753eac2f2f5f9ce8103dde2701de0ec"
+    },
+    {
+      "path": "scripts/desktop-smoke.mjs",
+      "bytes": 8420,
+      "sha256": "918c3a65c9691c9428c560f9057bb6d737e6bc46829d615502bca1647220a7d5"
+    },
+    {
+      "path": "scripts/export-public.mjs",
+      "bytes": 6434,
+      "sha256": "4100b1fa1da314faeb94ca14726ffb99be8f507e7cdac0adac475cc2dca6ba07"
+    },
+    {
+      "path": "scripts/QrDecoderSmoke.java",
+      "bytes": 3496,
+      "sha256": "44d200a4c14bfc966f67738f13189f983046c039627209d8795716cf47c4dd32"
+    },
+    {
+      "path": "scripts/remote-smoke-support.mjs",
+      "bytes": 2498,
+      "sha256": "15137fdb9a394ca19d24d64f25719b4ec087d8361a5612983a505fb3f546aefa"
+    },
+    {
+      "path": "scripts/scanner-smoke.mjs",
+      "bytes": 3598,
+      "sha256": "b7b83ac3344bbb5590c88f3c968361212ee3b416312e7a8024ae5cee7bcabeec"
+    },
+    {
+      "path": "scripts/setup-android.ps1",
+      "bytes": 1962,
+      "sha256": "adb56dca989e6c4d3c5105cccb0ec6c0374106d7d9c32ba43b316d782a8815a4"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 498,
+      "sha256": "956ef85cc7c8ff07038f84448e090d25b497b7bd350ce9a6d8c003ce092fe5fc"
+    },
+    {
+      "path": "server.mjs",
+      "bytes": 18473,
+      "sha256": "8bda452339412f2338ece03f2a0a06fda0041812a0e3bbd8120f42cc7d64c276"
+    },
+    {
+      "path": "tests/audio.test.mjs",
+      "bytes": 3838,
+      "sha256": "c50568cf190fdba68be247f52a7dbfc3dcab908eb066dc66ac652162e5fea7c7"
+    },
+    {
+      "path": "tests/desktop.test.mjs",
+      "bytes": 3204,
+      "sha256": "2e7e4d641b533decebc573d9615eb0c043c534f05f31a13ca8e97d6b930a128e"
+    },
+    {
+      "path": "tests/experience.test.mjs",
+      "bytes": 4997,
+      "sha256": "e29497916125d14d6d224ef4ca8fc578360f59e1122f02b1938628cc936cc260"
+    },
+    {
+      "path": "tests/export-public.test.mjs",
+      "bytes": 3411,
+      "sha256": "6d02a6e0805bb30a0cf960210e656eb99d915f44c9e88edf4cb2768479aba1c3"
+    },
+    {
+      "path": "tests/phone-media.test.mjs",
+      "bytes": 2162,
+      "sha256": "9d1ff923b42aeb464fcf1eda4398ea6017906cb6ade3fea7713422aab451bb6c"
+    },
+    {
+      "path": "tests/recordings.test.mjs",
+      "bytes": 3808,
+      "sha256": "3270103318cf10c3ac219510da6c8b69f85066661f3dab7511b849a30ac04117"
+    },
+    {
+      "path": "tests/remote.test.mjs",
+      "bytes": 12701,
+      "sha256": "44d1c5a2cf91eed13cc73a2f9f010cd35b01d859a2d2e51098385436bcc521bf"
+    },
+    {
+      "path": "tests/rtc.test.mjs",
+      "bytes": 11606,
+      "sha256": "6785de31922d124328b2c7abc22db1c13f3e7f66668030d3d21c6ac419ddb9f0"
+    },
+    {
+      "path": "tests/server.test.mjs",
+      "bytes": 7001,
+      "sha256": "9978291acd1791c638029a38f80cacbac7e440eee50d609073891bd26227e57c"
+    },
+    {
+      "path": "tests/startup.test.mjs",
+      "bytes": 2033,
+      "sha256": "ac756226996a1009bf46c706bd261faffdc5eb47403dfa0091d35c426e335e36"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1566,
+      "sha256": "885124f6cd3d3f0c9fa9cefd55cf4b8a8d51148891548d29340bf1393f75f2f6"
+    }
+  ]
+}
